@@ -1,4 +1,4 @@
-package io.theoperator.configuration.web;
+package io.theoperator.configuration;
 
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;

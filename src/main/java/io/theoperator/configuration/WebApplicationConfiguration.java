@@ -1,4 +1,4 @@
-package io.theoperator.configuration.web;
+package io.theoperator.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -15,7 +15,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @EnableWebMvc
 @ComponentScan(basePackages = {
         "io.theoperator.controller",
-        "io.theoperator.web.configuration"
+        "io.theoperator.configuration"
 })
 @Configuration
 public class WebApplicationConfiguration extends WebMvcConfigurerAdapter {
